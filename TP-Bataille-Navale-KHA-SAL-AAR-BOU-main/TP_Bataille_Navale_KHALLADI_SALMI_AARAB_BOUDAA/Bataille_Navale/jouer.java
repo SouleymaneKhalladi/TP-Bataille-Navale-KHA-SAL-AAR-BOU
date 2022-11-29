@@ -69,29 +69,33 @@ public class jouer {
             //choix 3 : régles et commandes du jeu.
             case 3:
             
-            System.out.println(""); System.out.println("Règles du jeu et commandes :");
-            
+             System.out.println(""); System.out.println("Règles du jeu et commandes :"); 
             sleep(1500);
-            
             System.out.println(""); System.out.println("But du jeu :"); System.out.println("");
-            System.out.print("Le jeu de la bataille navale, commence en plaçant tous les navires dans une grille secrète. Chacun à leur tour, ");
-            System.out.print("les joueurs doivent trouver et couler les bateaux adverses, \nen communiquant les coordonnées visées composées d'une lettre puis d'un nombre. ");
-            System.out.print("Le gagnant est le dernier joueur disposant de navires.");
+            System.out.print("Le jeu de la bataille navale, commence en plaçant tous les navires dans une grille secrète. Chacun à leur tour,");
+            System.out.print("les joueurs doivent trouver et couler les bateaux adverses, \nen communiquant les coordonnées visées composées d'une lettre puis d'un nombre.");
+            System.out.print("le gagnant est le dernier joueur disposant de navires.");
             System.out.println("");System.out.println("");System.out.println("");
             sleep(2500);
-
             System.out.println("Depuis le menu : \nvous pouvez presser la touche 1 de votre clavier afin de jouer, \nla touche 2 pour charger une partie, \nou encore la touche 4 pour quitter le jeu. ");
             System.out.println("");System.out.println("");
             sleep(1500);
-            System.out.println("Avant le lancement d'une partie vous serez invité à choisir la taille du plateau. Sachant que plus celui-ci est grand, plus la partie sera longue et compliquée");
+            System.out.println("Avant le lancement d'une partie vous serez invité à choisir la taille du plateau. Sachant que plus celui-ci est grand, plus la partie sera longue et compliquée.");
             System.out.println("");
             sleep(2500);
-            System.out.println("Le plateau contient : * Un cuirassé noté 'C' avec une force de frappe de 9 cases et de taille 7.");
-            System.out.println("* Deux croiseurs noté 'c' avec une force de frappe de 4 cases et de taille 5.");
-            System.out.println("* Trois destroyeurs noté 'D' avec une force de frappe de 1 case et de taille 3 avec une fusée éclairante pour chaques destroyeurs.");
-            System.out.println("* Quatre SousMarin noté 'S' avec une force de frappe de 1 case et de taille 1. Seules les SousMarins peuvent couler d'autre SousMarin.");
+            System.out.println("Le plateau contient : \n* Un cuirassé noté 'C' avec une force de frappe de 9 cases et une taille de 7 cases.");
+            System.out.println("* Deux croiseurs noté 'c' avec une force de frappe de 4 cases et une taille de  5 cases.");
+            System.out.println("* Trois destroyeurs noté 'D' avec une force de frappe de 1 case et une taille de 3 cases, avec une fusée éclairante pour chaques destroyeurs.");
+            System.out.println("* Quatre SousMarin noté 'S' avec une force de frappe de 1 case et une taille de 1 cases. Seules les SousMarins peuvent couler d'autre SousMarin.");
             System.out.println("");System.out.println("");System.out.println("");
             sleep(2500);
+            System.out.println("Pour jouer, plusieurs actions vous serons proposées. Toujours à l'aide de votre clavier vous pourrez : ");System.out.println("");
+            System.out.println("1- Tirer. Pour ce faire vous devrez choisir dans un premier temps avec quelle bateau vous voulez tirer et  ensuite, choisir quelle case vous voulez viser.");
+            System.out.println("2- Déplacer une navire. Pour ce faire, sélectionner dans un premier temps un navire non touché que vous voulez déplacer d'une case dans le sens du navire.");
+            System.out.println("les cases vides touchés sont marquées d'un : O. Les cases touchés contenant un navire sont marquées d'un : X. ");
+            System.out.println(""); System.out.println(""); System.out.println("Bon jeu !");System.out.println("");System.out.println("");
+            sleep(2500);
+                
             menu();
 
             break;
